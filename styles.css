@@ -113,14 +113,31 @@ body {
                 text-align-last: center;
             }
 
+/* Third block */
 .container-3 {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:flex-end;
+    padding: 120px;
 
 }
+    .quote-text {
+        font-size: 36px;
+        font-style: italic;
+        font-weight:lighter;
+        color: #1F2937;
+        padding:16px;
+        text-align: justify;
+        text-justify: distribute-all-lines;
+    }
+    .quote-author {
+        font-size: 18px;
+        font-weight: 700;
+        color: #1F2037;
+        text-align:center;
+    }
 
 .container-4 {
     background-color: #3882F6;
