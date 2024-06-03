@@ -4,18 +4,10 @@ body {
     flex-direction:column;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
+    justify-content: space-between;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 16px;
-}
-
+/* First block */
 .container-1 {
     background-color: #1f2937;
     display: flex;
@@ -25,13 +17,25 @@ ul {
     padding: 16px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex: auto;
-}
+    .header {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        flex: auto;
+    }
 
+        .container-1 ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 16px;
+        }
+
+/* Second block */
 .container-2 {
     display: flex;
     flex-direction: column;
