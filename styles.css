@@ -7,6 +7,22 @@ body {
     width: 100%;
     justify-content: space-between;
 }
+.container-4 button {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 16px;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+}
+.container-1 button {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 16px;
+    border-style: none;
+    border-radius: 10px;
+}
 /* First block */
 .container-1 {
     background-color: #1f2937;
